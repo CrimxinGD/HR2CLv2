@@ -1,4 +1,4 @@
-fetch('leaderboard.json')
+fetch('challengelist.json')
   .then(res => res.json())
   .then(data => {
     const list = document.getElementById('challenge-list');
