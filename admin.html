@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin Panel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Admin Panel</h1>
+  </header>
+
+  <div style="padding: 1rem;">
+    <input type="password" id="password" placeholder="Enter Password" />
+    <button onclick="unlock()">Login</button>
+
+    <div id="admin-panel" style="display:none;">
+      <textarea id="jsonData" rows="20" cols="80"></textarea><br>
+      <button onclick="saveData()">Save</button>
+    </div>
+  </div>
+
+  <script>
+    const PASSWORD = "kaelobersisgayhaha1098"; // change this
+
+    function unlock() {
+      const pass = document.getElementById("password").value;
+      if (pass === PASSWORD) {
+        document.getElementById("admin-panel").style.display = "block";
+      } else {
+        alert("Wrong password");
+      }
+    }
+
+    function saveData() {
+      const json = document.getElementById("jsonData").value;
+      console.log("Saving to server (not implemented):", json);
+      // You’d need a real backend or GitHub + Netlify Functions/Firebase for actual saving
+    }
+  </script>
+</body>
+</html>
