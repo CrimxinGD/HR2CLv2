@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Challenge of Doom",
+    "creator": "Player123",
+    "verifier": "VerifierGuy",
+    "video": "https://youtube.com/example"
+  },
+  {
+    "name": "Spike Hell",
+    "creator": "XxSpikyxX",
+    "verifier": "YTubeDemon",
+    "video": "https://youtube.com/example2"
+  }
+]
