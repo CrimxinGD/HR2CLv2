@@ -1,0 +1,36 @@
+body {
+  background-color: white;
+  color: #6A0DAD; /* purple */
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #6A0DAD;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.challenge-entry {
+  border: 2px solid #6A0DAD;
+  margin: 1rem auto;
+  padding: 1rem;
+  width: 80%;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+button {
+  background-color: #6A0DAD;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5900a6;
+}
